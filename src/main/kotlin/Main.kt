@@ -12,7 +12,6 @@ fun main() {
     gestorBiblioteca.agregarLibro(libro2)
     gestorBiblioteca.agregarLibro(libro3)
 
-
     gestorBiblioteca.registrarPrestamo(gestorBiblioteca.catalogo[0].id)
     gestorBiblioteca.registrarPrestamo(gestorBiblioteca.catalogo[0].id)
     gestorBiblioteca.devolverLibro(gestorBiblioteca.catalogo[0].id)
